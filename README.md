@@ -42,6 +42,12 @@ In de `inventory` array (in `main.js`) vind je 8 tv-objecten. Elk tv-object beva
 
 * **Opdracht 1a:** Gebruik een array-methode om een array te maken met alle tv-type namen. Log de uitkomst in de
   console.
+
+const tvTypes = inventory.map((tv) => {
+  return tv.type;
+})
+console.log(tvTypes);
+
 * **Opdracht 1b:** Gebruik een array-methode om alle tv's te verzamelen (de hele objecten) die volledig uitverkocht
   zijn. Log de uitkomst in de console.
 * **Opdracht 1c:** Gebruik een array-methode om alle tv's te verzamelen (de hele objecten) die over AmbiLight
